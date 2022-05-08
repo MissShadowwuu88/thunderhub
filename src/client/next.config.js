@@ -2,7 +2,12 @@
 const path = require('path');
 // eslint-disable-next-line @typescript-eslint/no-var-requires
 const dotenv = require('dotenv');
-
+ masterPassword: somerandompassword
+  accounts:
+  - name: 'make-money-get-money'
+  serverUrl: 'make-money-get-money.m.voltageapp.io:10009'
+  macaroon: 'AgEDbG5kAvgBAwoQ7De3ODD9563uzhg4BO7nNBIBMBoWCgdhZGRyZXNzEgRyZWFkEgV3cml0ZRoTCgRpbmZvEgRyZWFkEgV3cml0ZRoXCghpbnZvaWNlcxIEcmVhZBIFd3JpdGUaIQoIbWFjYXJvb24SCGdlbmVyYXRlEgRyZWFkEgV3cml0ZRoWCgdtZXNzYWdlEgRyZWFkEgV3cml0ZRoXCghvZmZjaGFpbhIEcmVhZBIFd3JpdGUaFgoHb25jaGFpbhIEcmVhZBIFd3JpdGUaFAoFcGVlcnMSBHJlYWQSBXdyaXRlGhgKBnNpZ25lchIIZ2VuZXJhdGUSBHJlYWQAAAYglghsv9heQycYF8HQ9K/8ETifjfJqgyFIcGC7oRSd4W8='
+    
 dotenv.config({ path: path.resolve(process.cwd(), '.env.local') });
 dotenv.config({ path: path.resolve(process.cwd(), '.env') });
 
